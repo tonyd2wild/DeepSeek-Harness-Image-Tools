@@ -57,7 +57,7 @@ All fleet specifics live in config — nothing about our hardware is hardcoded:
 
 | key | default | meaning |
 |---|---|---|
-| `lanes` | `["http://100.113.64.18:8190","http://100.113.64.18:8191"]` | ComfyUI HTTP endpoints (one per GPU) |
+| `lanes` | `["http://127.0.0.1:8190","http://127.0.0.1:8191"]` | ComfyUI HTTP endpoints (one per GPU) |
 | `outDir` | `./output` | where finished PNGs are written |
 | `timeoutMs` | `330000` | per-call timeout (a generation takes ~2 min) |
 
