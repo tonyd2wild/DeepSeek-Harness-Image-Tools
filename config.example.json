@@ -1,0 +1,18 @@
+{
+  "lanes": [
+    "http://127.0.0.1:8190",
+    "http://127.0.0.1:8191"
+  ],
+  "outDir": "./output",
+  "timeoutMs": 300000,
+  "sizes": {
+    "square": { "width": 1328, "height": 1328 },
+    "landscape": { "width": 1664, "height": 928 },
+    "portrait": { "width": 928, "height": 1664 }
+  },
+  "graphFiles": {
+    "unet": "qwen_image_2.1_int8_convrot.safetensors",
+    "clip": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  }
+}
